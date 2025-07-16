@@ -160,7 +160,7 @@ def process_and_train(file_path: str, target_column: str, task_id: str) -> Dict[
                     mae = float(mean_absolute_error(y_test, y_pred))
                     r2 = float(r2_score(y_test, y_pred))
                     results[name] = {"MAE": mae, "R2": r2, "pipeline": pipeline, "y_test": y_test, "y_pred": y_pred}
-                    logger.info(f"Модель {name}: MAE={mae:.4f}, R²={r2:.4f}")
+                    logger.info(f"Модель {name}: MAE={mae:.4f}, R2={r2:.4f}")
 
                     current_score = r2  
 

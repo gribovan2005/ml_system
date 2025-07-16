@@ -1,0 +1,80 @@
+.uploadSection {
+    background-color: #ffffff;
+    border-radius: 10px; 
+    padding: 30px;
+    margin-bottom: 30px;
+    backdrop-filter: none; 
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+    font-size: 1rem;
+}
+
+.fileInputWrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.fileInput {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.fileInputDisplay {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.fileInputDisplay:hover {
+    border-color: #999999;
+    background-color: #f0f0f0;
+}
+
+
+.textInput {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    background-color: #ffffff;
+}
+
+
+.submitBtn {
+    background-color: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.submitBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
